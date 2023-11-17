@@ -60,7 +60,8 @@ result_df = preprocess(data)
 
 # Print the result
 print(result_df)
-num_messages, words, num_media_messages, num_links = helper.fetch_stats("user1",result_df)
-print("numbers of :",num_messages)
-print("Links:",num_links)
-
+num_messages, words, num_media_messages, num_links = helper.fetch_stats("user3",result_df)
+print("Numbers of messages :",num_messages)
+print("Numbers of words:",words)
+print("Numbers of media messages:",num_media_messages,)
+print("Numbers of Links:",num_links)
