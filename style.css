@@ -1,0 +1,140 @@
+*{
+
+  margin:0;
+  padding:0;
+  font-family:'Poppins',sans-serief;
+  box-sizing:border-box;
+
+}
+
+
+.container {
+    width:100%;
+    min-height:100vh;
+    background: linear-gradient(135deg,#153677,#4e085f);
+    padding:10px;
+   
+}
+
+.todo-app {
+
+  width:100%;
+  max-width:540px;
+  background:#fff;
+  margin:100px auto 20px;
+  padding:40px 30px 70px;
+  border-radius:10px
+}
+
+.raw {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    background:#edeef0;
+    border-radius:30px;
+    padding-left:20px;
+    margin-bottom:25px;
+
+}
+
+input { 
+  flex:1;
+  border:none;
+  outline:none;
+  background:transparent;
+  padding:10px;
+  font-weight:14px;
+}
+
+button {
+ 
+  border: none;
+  outline: none;
+  padding: 16px 50px;
+  background: #ff5945;  /* Add a background color or image */
+  color: #fff;  /* Add a text color */
+  font-size: 16px;  /* Add a font size */
+  cursor: pointer;  /* Add a cursor type (e.g., pointer) */
+  border-radius: 40px /* border radius */;  /* Add a border radius for rounded corners */
+}
+
+ul li {
+
+list-style:none;
+font-size:17px;
+user-select:none;
+cursor:pointer;
+padding:12px 8px 12px 50px;
+position:relative;
+
+}
+
+
+
+ul li::before {
+content:'';
+position:absolute;
+height:28px;
+width:28px;
+border-radius:50%;
+background-image:url(images/unchecked.png);
+background-size:cover;
+background-position:center;
+top:12px;
+left:0;
+}
+
+ul li.checked {
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
