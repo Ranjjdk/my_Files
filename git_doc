@@ -1,0 +1,24 @@
+
+Configure Remote repository and push:
+
+Step-1
+https://github.com/(here username)/(here repository name).git
+
+example 
+https://github.com/Ranjjdk/SpringORM_CRUD.git
+
+
+Step-2
+git remote set-url origin https://(here username):(here token)@github.com/(here username)/(here repository name).git
+
+git remote set-url origin https://Ranjjdk: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@github.com/Ranjjdk/SpringORM_CRUD.git
+
+
+Note-This command is used to change the URL of the remote named origin to the specified URL. In this case:
+
+https://new_username:new_token@github.com/new_owner/new_repo.git is the new URL for the remote repository.
+This is particularly useful when you need to update the URL for an existing remote, for example, if you are working with a different repository or if the repository's location has changed.
+
+After running this command, the origin remote will be updated with the new URL, and any subsequent Git operations that involve this remote (e.g., git fetch, git pull, git push) will use the updated URL.
+
+Make sure to replace new_username, new_token, new_owner, and new_repo with the actual values for the new repository you want to work with.
