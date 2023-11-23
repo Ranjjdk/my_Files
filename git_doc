@@ -2,16 +2,18 @@
 Configure Remote repository and push:
 
 Step-1
-https://github.com/(here username)/(here repository name).git
+git remote add origin https://github.com/Ranjjdk/Javascript_projects.git
+
+git remote add origin https://github.com/(here username)/(here repository name).git
 
 example 
-https://github.com/Ranjjdk/SpringORM_CRUD.git
+ git remote add origin https://github.com/Ranjjdk/SpringORM_CRUD.git
 
 
 Step-2
 git remote set-url origin https://(here username):(here token)@github.com/(here username)/(here repository name).git
 
-git remote set-url origin https://Ranjjdk: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@github.com/Ranjjdk/SpringORM_CRUD.git
+git remote set-url origin https://Ranjjdk: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@github.com/Ranjjdk/Javascript_projects.git
 
 
 Note-This command is used to change the URL of the remote named origin to the specified URL. In this case:
